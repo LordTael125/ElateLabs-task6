@@ -17,7 +17,8 @@ This repoditory displays different password and their evaluation by a password e
 
 
 
-Tips For creating a strong password
+Tips For creating a strong password :
+```
 -> Use at least 12–16 characters for sufficient entropy.
 
 -> Include a mix of:
@@ -41,3 +42,8 @@ Tips For creating a strong password
 -> Store passwords securely using a password manager (e.g., Bitwarden, KeePassXC).
 
 -> Enable two-factor authentication (2FA) whenever available.
+```
+
+Brute Force Attack
+
+The script at Data/Scripts/bruteForce.py show a implementation how brute force attacks work by trying to find all possible combinations that can be made within a constraint here the max length and characters
