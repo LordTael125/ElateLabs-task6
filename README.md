@@ -44,6 +44,11 @@ Tips For creating a strong password :
 -> Enable two-factor authentication (2FA) whenever available.
 ```
 
-Brute Force Attack
+1. Brute Force Attack
 
 The script at Data/Scripts/bruteForce.py show a implementation how brute force attacks work by trying to find all possible combinations that can be made within a constraint here the max length and characters
+
+
+2. Dictionary Attack
+
+The script at Data/Scripts/dictionaryAttack.py show a implementation of dictoinary attacks work by trying to find the password by choosing different words from a ditionary file
